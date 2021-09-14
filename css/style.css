@@ -30,7 +30,7 @@ header{
   margin-bottom: 40px;
   
 }
-.search-fields {
+#input-field {
   border: none;
   border-radius: 7px;
   padding: 7px;
@@ -73,12 +73,13 @@ header{
   background-color: white;
   height: 530px;
   margin: 10px;
+  border: 1px solid black;
   border-radius: 10px;
 }
 .single-product:hover {
   box-shadow: 4px 4px 10px rgb(88, 87, 87);
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid white;
 }
 .product-image {
   width: 150px;
